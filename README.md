@@ -7,7 +7,7 @@ _G.DiscordTHUB = ApfRjc5wha
 local http = game:GetService('HttpService') 
 
 if toClipboard then
-	toClipboard(_G.DiscordTHUB)
+	toClipboard('ApfRjc5wha')
 end
 
 local req = (syn and syn.request) or (http and http.request) or http_request
@@ -21,8 +21,8 @@ if req then
 		},
 		Body = http:JSONEncode({
 			cmd = 'INVITE_BROWSER',
-			nonce = http:GenerateGUID(false),
-			args = {code = _G.DiscordTHUB}
+		nonce = http:GenerateGUID(false),
+				args = {code = 'ApfRjc5wha'}
 		})
 	})
 end
