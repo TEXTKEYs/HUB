@@ -1,4 +1,4 @@
-local WhiteList = {
+_G.tkhubkeycode01 = {
     [867650705] = true,
     [2704010211] = true,
     [1831068986] = true
